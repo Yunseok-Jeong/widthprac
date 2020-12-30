@@ -1,0 +1,911 @@
+html{
+    font-size:0.065824vw;
+}
+body{
+    margin: 0 0 0 0;
+    background:url("body-background.jpg");
+    z-index: -2;
+}
+
+/* header 메뉴부분 start */
+.headerele{
+    margin:50rem 50rem 0 0;
+    position:relative;
+    float:right;  
+}
+.headerele a{
+    text-decoration: none;
+    color:gray;
+}
+.headerele li{
+    padding-left:50rem;
+    display:inline;
+    font-size:20rem;
+}
+#header img{
+    width:200rem;
+}
+#header {
+    display:grid;
+    grid-template-columns: 200rem 1.3fr;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index: 100;
+}
+
+/* header 메뉴부분 end */
+
+/* 빌딩그림 start */
+#sec1{
+    background-image:url("building.jpg");
+    background-position: center center;
+    background-size: cover;
+    color:white;
+    text-align: center;
+}
+#sec1text1{
+    padding: 300rem 0 20rem 0;
+    font-size: 80rem;
+}
+#sec1text2{
+    font-size: 24rem;
+    padding-bottom:210rem;
+}
+/* 빌딩그림 end */
+
+/* 경험,믿음,기술 start */
+#sec2{
+    padding: 60rem 0 0 0;
+    color:black;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.circle{
+  margin:0 auto;
+  width: 230rem;
+  height: 230rem;
+  background: rgb(38, 38, 104);
+  border-radius: 50%;
+  text-align: center;
+  color:white;
+  font-size:30rem;
+  line-height: 230rem;
+}
+.cirunte{
+    padding-top:40rem;
+    font-size: 16.5rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom:50rem;
+}
+
+/* 경험,믿음,기술 end */
+
+/* ABOUT US start */
+#sec3{
+    background-color: rgb(38, 38, 104);
+    text-align: center;
+    color:white;
+    font-size:40rem;
+    padding:35rem 0 20rem 0;
+    letter-spacing: 5rem;
+}
+/*--------------------------------------------------------------*/       
+#sec4{
+    width:80%;
+    margin: 0 auto;
+}
+    #sec4white{
+    margin: 90rem 0 20rem 0; 
+    padding:30rem 0 60rem 0;
+    z-index: 1;
+    background-color: white;
+    position: relative;
+    display:grid;
+    grid-template-columns: 440rem 1fr;
+  }
+        #sec4img{
+            z-index:2;
+            display:inline;
+            padding-left:40rem;
+            margin-top: -80rem;
+        }
+        #sec4text{
+            font-size:15rem;
+            font-weight: lighter;
+            line-height: 27rem;
+            padding:30rem 50rem 0 50rem;
+        }
+        #sec4text h4{
+            font-size: 25rem;
+            line-height: 40rem;
+        }
+
+/*--------------------------------------------------------------*/
+#sec5{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.640), rgba(0, 0, 0, 0.640)),url("building.jpg");
+    background-position: center center;
+    background-size: cover;
+    color:white;
+}
+#sec5text{
+    width:70%;
+    margin:0 auto;
+    padding:40rem 0 70rem 0;
+    font-size:18rem;
+}
+#sec5text h3{
+    font-size:40rem;
+    font-weight: normal;
+    text-align: center;
+}
+#sec5text span{
+    font-size:35rem;
+}
+/* ABOUT US end */
+
+/* INVESTMENT start */
+#sec6{
+    background-image:url("triangle.png");
+    background-size: 1000rem;
+    background-repeat:no-repeat;
+    background-position: center 90rem;
+}
+#sec6 img{
+    width:200rem;
+    display:block;
+    margin:0 auto;
+}
+#sec6 h3{
+    font-size:23rem;
+}
+#sec6 #grid1{
+    padding-top:50rem;
+    display:grid;
+    grid-template-columns: 2fr 270rem 2fr;
+    font-size:15rem;
+}
+#sec6 #grid2{
+    padding-top:20rem;
+    display:grid;
+    grid-template-columns: 2fr 0.85fr 2fr;
+    align-items: center;
+}
+    #sec6 #grid2 #text1{
+        padding:60rem 0 0 160rem;
+        font-size:15rem;
+    }
+    #sec6 #grid2 #text2{
+        text-align:center;
+        letter-spacing: 1rem;
+        font-size:35rem;
+        font-weight: bold;
+        padding:130rem 0 30rem 0;
+    }
+    #sec6 #grid2 #text3{
+        padding:40rem 0 0 170rem;
+        font-size:15rem;
+    }
+#sec6 #grid3{
+    display:grid;
+    grid-template-columns: 1.5fr 3fr 3fr 1.5fr;
+    padding-bottom:100rem;
+}
+
+#sec7{
+    background:url("sec7\ background.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding:15rem 0 20rem 0;
+}
+#sec7 h4{
+    letter-spacing: 10rem;
+    color:black;
+    font-size:27rem;
+    text-align: center;
+}
+#sec7 h5{
+    color:navy;
+    font-size:17rem;
+}
+#sec7cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+    padding-bottom: 20rem;
+}
+
+#sec7 img{
+    position: center;
+    width:50rem;
+}
+/* INVESTMENT end */
+
+/* TEAMS start */
+#sec8{
+    width:90%;
+    margin:0 auto;
+}
+#sec8 h4 {
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+    color: navy;
+    font-weight: normal;
+    font-size: 30rem;
+    letter-spacing: 2rem;
+}
+#sec8 h4::before,
+#sec8 h4::after {
+	content: "";
+	flex-grow: 1;
+	background: navy;
+	height: 1.5rem;
+	font-size: 0rem;
+	line-height: 0rem;
+	margin: 0rem 40rem;
+}
+        #sec8 h5 {
+            display: flex;
+            flex-basis: 100%;
+            align-items: center;
+            color: navy;
+        }
+        #sec8 h5::before,
+        #sec8 h5::after {
+            content: "";
+            flex-grow: 1;
+            background: navy;
+            height: 1.5rem;
+            font-size: 0rem;
+            line-height: 0rem;
+        }
+        #sec8 h5::before{margin: 0 0 0 40rem;}
+        #sec8 h5::after {margin: 0 40rem 0 0;}
+
+.ppimg{
+    width:300rem;
+    height:380rem; 
+}
+    #pp1{
+        background:url("CEO.jpg");
+        background-position: center center;
+        background-size: cover;
+    }
+    #pp2{
+        background:url("COO.jpg");
+        background-position: center center;
+        background-size: cover;
+    }
+    #pp3{
+        background:url("관리인.jpg");
+        background-position: center center;
+        background-size: cover;
+    }
+    #pp4{
+        background:url("변호사.jpg");
+        background-position: center center;
+        background-size: cover;
+    }
+    #pp5{
+        background:url("사원.jpg");
+        background-position: center center;
+        background-size: cover;
+    }
+    #pp6{
+        background:url("사원2.jpg");
+        background-position: center center;
+        background-size: cover;
+    }
+#sec8 figcaption{
+    background-color: rgb(253, 253, 253);
+    font-size: 22rem;
+    text-align: center;
+    width:300rem;
+    padding:10rem 0;
+    margin-bottom:50rem;
+}
+#imggird1{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50rem;
+}
+#imggird2{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* TEAMS end */
+
+/* PORTFOLO start */
+#sec9{
+    background: url("portfolio-background.jpg");
+    background-position: center center;
+    background-size: cover;
+    font-size: 16rem;
+    text-align: center;
+    color: white;
+}
+#sec9 h4{
+    padding:30rem 0 30rem 0;
+    margin:0;
+    font-size: 40rem;
+    font-weight: normal;
+    letter-spacing: 3rem;
+    text-align: center;
+    color:white;
+}
+#sec9 div{
+    padding:0 0 40rem 0;
+}
+.vl{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.vl #a{
+    border-right: 3rem solid white;
+    height: 50rem;
+}
+
+#sec10{
+    padding: 40rem 0 40rem 0;
+    background-color: rgb(229, 226, 226);
+}
+#sec10-2{
+    margin:0 auto;
+    width: 80%;
+}
+#sec10 figcaption{
+    background-color: white;
+    font-size: 15rem;
+    text-align: center;
+    width:250rem;
+    color:gray;
+    padding-bottom:20rem;
+}
+#sec10 h4{
+    font-size: 20rem;
+    color:black;
+    margin-top:0;
+    padding-top:20rem;
+
+}
+/* PORTFOLO end */
+
+/* CONTACT US start */
+#sec11 h4{
+    padding:30rem 0 30rem 0;
+    font-size: 30rem;
+    font-weight: normal;
+    letter-spacing:3rem;
+    text-align: center;
+    color:navy;
+    margin:0;
+}
+#sec11{
+    font-size: 22rem;
+    text-align: center;
+    color: navy;
+}
+#sec11 div{
+    padding:0 0 30rem 0;
+}
+.vl #b{
+    border-right: 3rem solid navy;
+    height: 50rem;
+}
+
+#sec12-2{
+    background-color: navy;
+    color:rgba(255, 255, 255, 0.493);
+}
+#sec12 .content{
+    width: 80%;
+    margin:0 auto;
+    font-size:20rem;
+    padding:80rem 0 80rem 0;
+}
+#sec12 h4{
+    padding-right:40rem;
+    color:white;
+    font-size:25rem;
+    font-weight: normal;
+}
+#sec12 p{
+    padding-top:10rem;
+}
+#sec12{
+    display:grid;
+    grid-template-columns: 1.3fr 1fr;
+}
+#sec12 img{
+    width:100%;
+    height:100%;
+}
+/* CONTACT US end */
+
+#sec13{
+    background-color: white;
+    font-family: arial;
+    padding:30rem 0 30rem 0;
+    text-align: center;
+    letter-spacing: 1rem;
+    font-size:15rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 900px)
+    {
+        html{
+            width:100%;
+            font-size:0.06vw
+        }
+        body{
+            margin: 0 0 0 0;
+            background:url("body-background.jpg");
+            z-index: -2;
+            
+        }
+        
+        /* header 메뉴부분 start */
+        #header{
+            position: relative;
+        }
+        .navbar {
+            display:flex;
+            flex-direction: column;
+            padding: 0 20rem;
+            margin: 0;
+            background-color: white;
+            position: fixed;
+            top:0; left:0; right:0;
+            z-index: 100;
+        }
+        .navbarmenu{
+            flex-direction: column;
+            align-items: center;
+            padding:0;
+            display:none;
+        }
+        .navbarmenu a{
+            text-decoration: none;
+            color:gray;
+            display:block;
+            padding:50rem 0;
+        }
+        .navbarmenu li{
+            display:inline;
+            font-size:70rem;
+            font-weight: bold;
+            width:100%;
+            text-align:center;
+        }
+        .navbar_toggleBtn{
+            position:absolute;
+            top:0;right:0;
+            font-size:120rem;
+            padding:60rem 140rem 50rem 140rem;
+            color:gray;
+        }
+        #mheader img{
+            width:500rem;
+        }
+        /*
+        .navbarmenu.active{
+            display:flex;
+        }
+        .navbarmenu.inactive{
+            display:none;
+        }
+        */
+        /* header 메뉴부분 end */
+        
+        /* 빌딩그림 start */
+        #sec1{
+            background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("COO.jpg");
+            background-position: center bottom;
+            background-size: cover;
+            color:white;
+            text-align: center;
+        }
+        #sec1text1{
+            padding: 500rem 0 70rem 0;
+            font-size: 130rem;
+        }
+        #sec1text2{
+            font-size:80rem;
+            padding:0 200rem 180rem 200rem;
+        }
+        /* 빌딩그림 end */
+        
+        /* 경험,믿음,기술 start */
+        #sec2{
+            padding: 100rem 0 0 0;
+            color:black;
+        }
+        .circle{
+          margin:0 auto;
+          width: 450rem;
+          height: 450rem;
+          background: rgb(38, 38, 104);
+          border-radius: 50%;
+          text-align: center;
+          color:white;
+          font-size:77rem;
+          line-height: 450rem;
+        }
+        .cirunte{
+            padding-top:50rem;
+            font-size: 50rem;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom:100rem;
+        }
+        
+        /* 경험,믿음,기술 end */
+        
+        /* ABOUT US start */
+        #sec3{
+            background-color: rgb(38, 38, 104);
+            text-align: center;
+            color:white;
+            font-size:60rem;
+            padding:85rem 0 85rem 0;
+            letter-spacing: 5rem;
+        }
+        #sec3 hr{
+            display: none;
+        }
+        /*--------------------------------------------------------------*/       
+        #sec4{
+            width:92%;
+            margin: 0 auto;
+        }
+            #sec4white{
+            margin: 80rem 0 80rem 0; 
+            padding:100rem 40rem 100rem 40rem;
+            background-color: white;
+          }
+                #sec4img{
+                    display:none;
+                }
+                #sec4text{
+                    font-size:40rem;
+                    font-weight: normal;
+                    line-height: 90rem;
+                    padding:30rem 50rem 0 50rem;
+                }
+                #sec4text h4{
+                    font-size: 70rem;
+                    line-height: 100rem;
+                }
+        
+        /*--------------------------------------------------------------*/
+        #sec5{
+            background-image:linear-gradient(rgba(0, 0, 0, 0.640), rgba(0, 0, 0, 0.640)),url("building.jpg");
+            background-position: center center;
+            background-size: cover;
+            color:white;
+            width:100%
+        }
+        #sec5text{
+            width:80%;
+            margin:0 auto;
+            padding:40rem 0 150rem 0;
+            font-size:45rem;
+            word-break: keep-all;
+        }
+        #sec5text h3{
+            font-size:90rem;
+            font-weight: normal;
+            text-align: center;
+        }
+        #sec5text span{
+            font-size:80rem;
+        }
+        #sec5 hr{
+            display: none;
+        }
+        /* ABOUT US end */
+        
+        /* INVESTMENT start */
+        #msec6{
+            font-size:53rem;
+        }
+        #msec6 h2{
+            margin:70rem 300rem;
+            padding:10rem;
+            text-align: center;
+            font-size: 90rem;
+            letter-spacing: 10rem;
+            line-height: 115rem;
+            border:solid black 10rem;
+        }
+        #msec6 #text1{
+            margin:140rem 180rem 50rem 180rem;
+            word-break: keep-all;
+        }
+        #msec6 h3{
+            text-align: center;
+            font-size:80rem;
+            margin:100rem 0 30rem 0;
+        }
+        #msec6 .grid{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: repeat(auto-fit, 740rem);
+            justify-items:center;
+        
+        }
+        #msec6 .grid2{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 1fr 1fr;
+            justify-items:center;
+            margin-bottom:100rem;
+            word-break: keep-all;
+        }
+        #msec6 #text2, #text3{
+            margin-left:20rem;
+        }
+        ul{
+            -webkit-padding-start: 100rem;
+            line-height: 90rem;
+        }
+        #msec6 img{
+            width:650rem;
+        }
+        
+        #sec7{
+            background:url("sec7\ background.jpg");
+            background-position: center center;
+            background-size: cover;
+            padding:15rem 0 20rem 0;
+        }
+        #sec7 h4{
+            letter-spacing: 10rem;
+            color:black;
+            font-size:40rem;
+            text-align: center;
+        }
+        #sec7 h5{
+            color:navy;
+            font-size:40rem;
+        }
+        #sec7cont{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            width: 95%;
+            margin:0 auto;
+            text-align: center;
+            padding-bottom: 20rem;
+            word-break: keep-all;
+        }
+        
+        #sec7 img{
+            position: center;
+            width:80rem;
+        }
+        /* INVESTMENT end */
+        
+        /* TEAMS start */
+        #msec8{
+            width: 80%;
+            margin:0 auto;
+        }
+        #msec8 h4 {
+            display: flex;
+            flex-basis: 100%;
+            align-items: center;
+            color: navy;
+            font-weight: normal;
+            font-size: 80rem;
+            letter-spacing: 2rem;
+            margin: 60rem 0 0 0;
+        }
+        #msec8 h4::before,
+        #msec8 h4::after {
+            content: "";
+            flex-grow: 1;
+            background: navy;
+            height: 1.5rem;
+            font-size: 0rem;
+            line-height: 0rem;
+        }
+            #msec8 h4::before{
+                margin:0 50rem 0 0;
+            }
+            #msec8 h4::after{
+                margin:0 0 0 50rem;
+            }  
+        .ppimg{
+            width:500rem;
+            height:640rem;
+            margin-top:70rem;
+        }
+            #pp1{
+                background:url("CEO.jpg");
+                background-position: center center;
+                background-size: cover;
+            }
+            #pp2{
+                background:url("COO.jpg");
+                background-position: center center;
+                background-size: cover;
+            }
+            #pp3{
+                background:url("관리인.jpg");
+                background-position: center center;
+                background-size: cover;
+            }
+            #pp4{
+                background:url("변호사.jpg");
+                background-position: center center;
+                background-size: cover;
+            }
+            #pp5{
+                background:url("사원.jpg");
+                background-position: center center;
+                background-size: cover;
+            }
+            #pp6{
+                background:url("사원2.jpg");
+                background-position: center center;
+                background-size: cover;
+            }
+        #msec8 figcaption{
+            background-color: rgb(253, 253, 253);
+            font-size: 50rem;
+            text-align: center;
+            width:500rem;
+            padding:10rem 0;
+            margin-bottom:70rem;
+            word-break: keep-all;
+        }
+        #msec8 .container{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: repeat(auto-fit, 650rem);
+            justify-items:center;
+        }
+        #msec8 #container2{
+            border-top: solid navy 1.5rem;
+            display: grid;
+            justify-content: center;
+            grid-template-columns: repeat(auto-fit, 650rem);
+            justify-items:center;
+        }
+        
+        /* TEAMS end */
+        
+        /* PORTFOLO start */
+        #sec9{
+            background: url("portfolio-background.jpg");
+            background-position: center center;
+            background-size: cover;
+            font-size: 35rem;
+            text-align: center;
+            color: white;
+        }
+        #sec9 h4{
+            padding:70rem 0 30rem 0;
+            margin:0;
+            font-size: 70rem;
+            font-weight: normal;
+            letter-spacing: 3rem;
+            text-align: center;
+            color:white;
+        }
+        #sec9 div{
+            padding:0 0 70rem 0;
+        }
+        .vl{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .vl #a{
+            border-right: 3rem solid white;
+            height: 50rem;
+        }
+        
+        #sec10{
+            padding: 70rem 0 70rem 0;
+            background-color: rgb(229, 226, 226);
+        }
+        #sec10 figcaption{
+            background-color: white;
+            font-size: 35rem;
+            text-align: center;
+            width:450rem;
+            color:gray;
+            padding-bottom:20rem;
+            margin: 15rem 0 0 0;
+            word-break: keep-all;
+        }
+        #sec10 h4{
+            font-size: 50rem;
+            color:black;
+            margin:0 0 20rem 0;
+            padding-top:20rem;
+        }
+        #sec10 img{
+            width:450rem;
+        }
+        /* PORTFOLO end */
+        
+        /* CONTACT US start */
+        #sec11 h4{
+            padding:50rem 0 30rem 0;
+            font-size: 60rem;
+            font-weight: normal;
+            letter-spacing:3rem;
+            text-align: center;
+            color:navy;
+            margin:0;
+        }
+        #sec11{
+            font-size: 50rem;
+            text-align: center;
+            color: navy;
+        }
+        #sec11 div{
+            padding:0 0 50rem 0;
+        }
+        .vl #b{
+            border-right: 3rem solid navy;
+            height: 50rem;
+        }
+        
+        #sec12-2{
+            background-color: navy;
+            color:rgba(255, 255, 255, 0.493);
+        }
+        #sec12 .content{
+            width: 80%;
+            margin:0 auto;
+            font-size:55rem;
+            padding:80rem 0 80rem 0;
+            word-break: keep-all;
+        }
+        #sec12 h4{
+            padding-right:60rem;
+            color:white;
+            font-size:80rem;
+            font-weight: normal;
+            margin-bottom:20rem;
+        }
+        #sec12 p{
+            padding-top:10rem;
+        }
+        #sec12 img{
+            width:100%;
+            height:100%;
+        }
+        tr{
+            display:grid;
+            grid-template-rows:auto;
+        }
+        /* CONTACT US end */
+        
+        #sec13{
+            background-color: white;
+            font-family: arial;
+            padding:30rem 0 30rem 0;
+            text-align: center;
+            letter-spacing: 1rem;
+            font-size:15rem;
+        }
